@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="weShare@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="weshare">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="bookstore"/>
+    <schema id="4" parent="1" name="db_affairmanage"/>
+    <schema id="5" parent="1" name="hello"/>
+    <schema id="6" parent="1" name="information_schema"/>
+    <schema id="7" parent="1" name="k_star"/>
+    <schema id="8" parent="1" name="mybatistest"/>
+    <schema id="9" parent="1" name="mysql"/>
+    <schema id="10" parent="1" name="oop"/>
+    <schema id="11" parent="1" name="performance_schema"/>
+    <schema id="12" parent="1" name="test"/>
+    <schema id="13" parent="1" name="testdb_1"/>
+    <schema id="14" parent="1" name="wd"/>
+    <table id="15" parent="2" name="admin"/>
+    <table id="16" parent="2" name="comment"/>
+    <table id="17" parent="2" name="follow"/>
+    <table id="18" parent="2" name="interest"/>
+    <table id="19" parent="2" name="thumb_weibo_user"/>
+    <table id="20" parent="2" name="user"/>
+    <table id="21" parent="2" name="user_interest"/>
+    <table id="22" parent="2" name="user_relate"/>
+    <table id="23" parent="2" name="weibo"/>
+    <table id="24" parent="2" name="weibo_interest"/>
+    <column id="25" parent="15" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="26" parent="15" name="name">
+      <Position>2</Position>
+      <Comment>管理员名</Comment>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="27" parent="15" name="password">
+      <Position>3</Position>
+      <Comment>管理员登陆密码</Comment>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="28" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="29" parent="16" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="30" parent="16" name="weibo_id">
+      <Position>2</Position>
+      <Comment>评论的博文 id</Comment>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="31" parent="16" name="context">
+      <Position>3</Position>
+      <Comment>博文内容</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="16" name="comment_time">
+      <Position>4</Position>
+      <Comment>评论时间</Comment>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="16" name="parent_id">
+      <Position>5</Position>
+      <Comment>回复的 comment_id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="16" name="user_id">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="35" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="36" parent="17" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="37" parent="17" name="followed_id">
+      <Position>2</Position>
+      <Comment>被关注者ID</Comment>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="38" parent="17" name="following_id">
+      <Position>3</Position>
+      <Comment>关注者ID</Comment>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <key id="39" parent="17" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="40" parent="18" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="41" parent="18" name="name">
+      <Position>2</Position>
+      <Comment>取点名</Comment>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="42" parent="18" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="43" parent="19" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="44" parent="19" name="weibo_id">
+      <Position>2</Position>
+      <Comment>博文 ID</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="19" name="user_id">
+      <Position>3</Position>
+      <Comment>点赞者 ID</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="46" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="47" parent="20" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="48" parent="20" name="name">
+      <Position>2</Position>
+      <Comment>用户名，唯一</Comment>
+      <DataType>varchar(225)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="20" name="password">
+      <Position>3</Position>
+      <Comment>密码，已进行 des 加密（密码修改：-1 //旧密码错误，-2 //新旧密码一致，1 //成功）</Comment>
+      <DataType>varchar(225)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="20" name="email">
+      <Position>4</Position>
+      <Comment>邮箱，唯一</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="20" name="photo">
+      <Position>5</Position>
+      <Comment>存放用户头像</Comment>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="52" parent="20" name="gender">
+      <Position>6</Position>
+      <Comment>用户性别，1：男，2：女（默认0）</Comment>
+      <DataType>int(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="20" name="login_time">
+      <Position>7</Position>
+      <Comment>最近登陆时间</Comment>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="20" name="register_time">
+      <Position>8</Position>
+      <Comment>注册时间</Comment>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="55" parent="20" name="is_banned">
+      <Position>9</Position>
+      <Comment>是否被禁言，0：不被禁言，1：被禁言。默认0</Comment>
+      <DataType>int(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="56" parent="20" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="57" parent="21" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="58" parent="21" name="user_id">
+      <Position>2</Position>
+      <Comment>趣点关注者 ID</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="59" parent="21" name="interest_id">
+      <Position>3</Position>
+      <Comment>趣点 ID</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="21" name="interest_name">
+      <Position>4</Position>
+      <DataType>varchar(225)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="61" parent="21" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="62" parent="22" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="63" parent="22" name="followed_id">
+      <Position>2</Position>
+      <Comment>被关注者 id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="22" name="following_id">
+      <Position>3</Position>
+      <Comment>关注者 id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="65" parent="22" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="66" parent="23" name="id">
+      <Position>1</Position>
+      <Comment>主键 id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="67" parent="23" name="context">
+      <Position>2</Position>
+      <Comment>博文内容</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="23" name="read_count">
+      <Position>3</Position>
+      <Comment>博文阅读量,默认0</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="23" name="thumb_count">
+      <Position>4</Position>
+      <Comment>点赞量，默认0</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="23" name="user_id">
+      <Position>5</Position>
+      <Comment>发布博文的用户 id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="23" name="create_time">
+      <Position>6</Position>
+      <Comment>博文创建时间</Comment>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="23" name="user_name">
+      <Position>7</Position>
+      <Comment>博文发布者</Comment>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="73" parent="23" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="74" parent="24" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="75" parent="24" name="weibo_id">
+      <Position>2</Position>
+      <Comment>博文 id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="76" parent="24" name="interest_id">
+      <Position>3</Position>
+      <Comment>趣点 id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="77" parent="24" name="interest_name">
+      <Position>4</Position>
+      <Comment>趣点名</Comment>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="78" parent="24" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

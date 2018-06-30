@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="db.mapper">
+    <!-- user -->
+    <!-- 登陆 -->
+    <select id="login" parameterType="User" resultType="User">
+        select * from user WHERE name=#{name} or email=#{email} and password=#{password}
+    </select>
+    <!-- 注册 -->
+    <insert id="register" parameterType="User">
+        insert into user (name, password, email,photo,gender,login_time,register_time,is_banned)
+          values (#{name},#{password},#{email},#{photo},#{gender},#{login_time},#{register_time},#{is_banned});
+    </insert>
+    <!-- 注册时，查询用户名或邮箱重复 -->
+    <select id="checkName" parameterType="string" resultType="User">
+        select * from user WHERE name=#{name};
+    </select>
+    <select id="checkEmail" parameterType="string" resultType="User">
+        select * from user WHERE email=#{email};
+    </select>
+    <!-- 登陆时间更新 -->
+    <update id="update_login_time" parameterType="User">
+        update user set login_time = #{login_time} where id=#{id};
+    </update>
+    <!-- 根据 ID 搜索用户名，用于发布博文的 user_name -->
+    <select id="get_name_by_id" parameterType="int" resultType="string">
+        select name from user WHERE id=#{id};
+    </select>
+    <!-- 根据keyword进行模糊查询用户 -->
+    <select id="search_user" parameterType="string" resultType="User">
+        select * from user WHERE name LIKE #{keyword};
+    </select>
+    <!-- 修改信息 -->
+    <update id="modify_user" parameterType="User">
+        update user set name=#{name},gender=#{gender},photo=#{photo} where id=#{id};
+    </update>
+    <!-- 根据 user_id 获取user -->
+    <select id="get_user_by_id" parameterType="int" resultType="User">
+        select * from user WHERE id=#{id};
+    </select>
+    <!-- 密码修改 -->
+    <update id="update_password" parameterType="User">
+        update user set password = #{new_password} where id=#{id} and password = #{password};
+    </update>
+    <!-- 更新头像 -->
+    <update id="updatePhoto" parameterType="int">
+        update user set photo = #{photo} where id=#{id};
+    </update>
+    <!-- 获取用户总数量 -->
+    <select id="get_user_count" resultType="int">
+        select COUNT(*) from user;
+    </select>
+    <!-- 按 ID 倒叙每次获取一定数量用户 -->
+    <select id="get_user_limit" parameterType="int" resultType="User">
+        select * from user ORDER BY id limit #{limit};
+    </select>
+    <!-- 设置禁言状态 -->
+    <update id="set_banned" parameterType="User">
+        update user set is_banned = #{is_banned} where id=#{id};
+    </update>
+
+
+    <!-- weibo -->
+    <!-- 添加博文 -->
+    <insert id="addWeibo" parameterType="Weibo">
+        insert into weibo (context,read_count,thumb_count,user_id,create_time,user_name)
+          values (#{context},#{read_count},#{thumb_count},#{user_id},#{create_time},#{user_name});
+    </insert>
+    <!-- 获取最后一条微博ID，用于添加博文与趣点的联系 -->
+    <select id="get_last_weibo" resultType="int">
+        select id from weibo ORDER BY id DESC LIMIT 1;
+    </select>
+    <!-- 阅读量 +1 -->
+    <update id="add_read_count" parameterType="int">
+        update weibo set read_count = read_count+1 where id = #{id};
+    </update>
+    <!-- 点赞量+1 -->
+    <update id="add_thumb_count" parameterType="int">
+        update weibo set thumb_count = thumb_count+1 where id = #{id};
+    </update>
+    <!-- 取消点赞 -->
+    <update id="cancel_thumb_count" parameterType="int">
+        UPDATE weibo SET thumb_count=thumb_count-1 WHERE id=#{id}
+    </update>
+    <!-- 根据用户名或博文内容查询 -->
+    <select id="search_weibo" parameterType="string" resultType="Weibo">
+        SELECT * from weibo WHERE user_name LIKE  #{keyword} or context like #{keyword};
+    </select>
+    <!-- 根据从weibo_interest 获取的 weibo_id 来查询 -->
+    <select id="search_by_weibo_id" parameterType="int" resultType="Weibo">
+        select * from weibo WHERE id=#{weibo_id};
+    </select>
+    <!-- 根据 weibo_id 删除指定博文 -->
+    <delete id="delete_by_id" parameterType="int">
+        DELETE FROM weibo WHERE id=#{id};
+    </delete>
+    <!-- 查看热门微博 按照时间排序返回最新的微博 -->
+    <select id="look_hot" resultType="Weibo">
+        select * from weibo ORDER BY id DESC LIMIT 10
+    </select>
+
+
+    <!-- thumb_weibo_user -->
+    <!-- 点赞量+1时记录点赞者与博文关系 -->
+    <insert id="thumb_weibo_user" parameterType="Thumb_weibo_user">
+        insert into thumb_weibo_user(weibo_id, user_id) values (#{weibo_id},#{user_id});
+    </insert>
+    <select id="get_weibo_user" parameterType="Thumb_weibo_user" resultType="Thumb_weibo_user">
+        select * from thumb_weibo_user WHERE weibo_id=#{weibo_id} and user_id=#{user_id};
+    </select>
+
+
+    <!-- weibo_interest -->
+    <!-- 构建博文与趣点的联系 -->
+    <insert id="add_weibo_interest" parameterType="Weibo_interest">
+        insert into weibo_interest (weibo_id, interest_id) values (#{weibo_id},#{interest_id});
+    </insert>
+    <!-- 根据趣点名获取 weibo_id -->
+    <select id="search_by_interest" parameterType="string" resultType="int">
+        select weibo_id from weibo_interest WHERE interest_name LIKE #{keyword};
+    </select>
+    <!-- 按照趣点查看微博,获取 weibo_id -->
+    <select id="get_weibo_by_interest" parameterType="int" resultType="int">
+        select weibo_id from weibo_interest WHERE interest_id = #{interest_id};
+    </select>
+
+    <!-- comment -->
+    <!-- 添加评论 -->
+    <insert id="add_comment" parameterType="Comment">
+        insert into comment (weibo_id, context, comment_time, parent_id,user_id)
+        values (#{weibo_id},#{context},#{comment_time},#{parent_id},#{user_id});
+    </insert>
+    <!-- 删除评论 -->
+    <delete id="del_comment" parameterType="Comment">
+        DELETE FROM comment WHERE id=#{id} and user_id=#{user_id}
+    </delete>
+
+
+    <!-- follow -->
+    <!-- 添加关注者与被关注者关系 -->
+    <insert id="add_follow" parameterType="Follow">
+        insert into follow (followed_id, following_id) values (#{followed_id},#{following_id});
+    </insert>
+
+    <!-- interest -->
+    <!-- 根据 interest_id 获取指定趣点 -->
+    <select id="get_interest_by_id" parameterType="int" resultType="Interest">
+        select * from interest WHERE id=#{id};
+    </select>
+    <!-- 获取趣点总数量 -->
+    <select id="get_interest_count" resultType="int">
+        select COUNT(*) from interest;
+    </select>
+    <!-- 按 ID 倒叙每次获取一定数量趣点 -->
+    <select id="get_interest_limit" parameterType="int" resultType="Interest">
+        select * from interest ORDER BY id limit #{limit};
+    </select>
+    <!-- 根据关键字查询趣点 -->
+    <select id="get_interest_by_keyword" parameterType="string" resultType="Interest">
+        select * from interest WHERE name LIKE #{name};
+    </select>
+    <!-- 创建趣点 -->
+    <insert id="insert_interest" parameterType="string">
+        insert into interest (name) values (#{name});
+    </insert>
+    <!-- 删除趣点 -->
+    <delete id="delete_interest" parameterType="int">
+        DELETE FROM interest WHERE id=#{id}
+    </delete>
+
+    <!-- user_interest -->
+    <!-- 订阅趣点 -->
+    <insert id="add_interest" parameterType="User_interest">
+        insert into user_interest (user_id, interest_id,interest_name) values (#{user_id},#{interest_id},#{interest_name});
+    </insert>
+    <!-- 取消订阅 -->
+    <delete id="cancel_interest" parameterType="User_interest">
+        DELETE FROM user_interest WHERE user_id=#{user_id} and interest_id=#{interest_id}
+    </delete>
+    <!-- 用户查看自己的趣点列表 -->
+    <select id="look_list_by_user_id" parameterType="int" resultType="User_interest">
+        select * from user_interest WHERE user_id=#{user_id};
+    </select>
+</mapper>
