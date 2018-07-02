@@ -1,7 +1,9 @@
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import common.JWTUtils;
 import common.JsonCommon;
+import io.jsonwebtoken.Claims;
 import net.sf.json.JSONObject;
 
 /**
@@ -35,5 +37,17 @@ public class Test {
         JsonCommon jsonCommon = new JsonCommon();
         System.out.println(jsonCommon.jsonArrayToObject(jsonArray, Integer.class).get(0));
 
+    }
+
+    @org.junit.Test
+    public void testJWT(){
+        String sub = "{\"user\":\"liu\",\"password\":123}";
+        String jwtData = JWTUtils.createJWT("jwt",sub);
+        System.out.println(jwtData);
+        String data = "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJqd3QiLCJpYXQiOjE1MzA1NDI4NzksInN1YiI6IntcInVzZXJcIjpcImxpdVwiLFwicGFzc3dvcmRcIjoxMjN9IiwiZXhwIjoxNTMxMTQ3Njc5fQ._0Ue8JMX7JNjkmLWsZkta8lxELoRKMPWwWXK2nfL30c";
+        Claims claims = JWTUtils.verifyJWT(data);
+        System.out.println(claims.getId());
+        System.out.println(claims.getIssuedAt());
+        System.out.println(claims.getSubject());
     }
 }
