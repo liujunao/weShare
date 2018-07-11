@@ -83,4 +83,16 @@ public class InterestService {
 
         return result;
     }
+
+    /**
+     * 获取所有趣点列表
+     *
+     * @return
+     */
+    public List<Interest> get_all_interests() {
+        List<Interest> interests = interestDAO.get_all_interests();
+
+        return interests;
+    }
+
 }

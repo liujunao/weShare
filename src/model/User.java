@@ -1,7 +1,6 @@
 package model;
 
 /**
- *
  * @author lenovo
  * @date 2018/6/27
  */
@@ -16,6 +15,15 @@ public class User {
     private String login_time;
     private String register_time;
     private int is_banned;
+    private int is_admini;
+
+    public int getIs_admini() {
+        return is_admini;
+    }
+
+    public void setIs_admini(int is_admini) {
+        this.is_admini = is_admini;
+    }
 
     //用于密码更新
     private String new_password;
@@ -100,7 +108,7 @@ public class User {
         this.email = email;
     }
 
-    public User(int id, String name, String password, String email, String photo, int gender, String login_time, String register_time, int is_banned) {
+    public User(int id, String name, String password, String email, String photo, int gender, String login_time, String register_time, int is_banned, int is_admini) {
         this.id = id;
         this.name = name;
         this.password = password;
@@ -110,6 +118,7 @@ public class User {
         this.login_time = login_time;
         this.register_time = register_time;
         this.is_banned = is_banned;
+        this.is_admini = is_admini;
     }
 
     public User(String name, String password, String email) {

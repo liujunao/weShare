@@ -118,4 +118,28 @@ public class WeiboService {
 
         return list;
     }
+
+    /**
+     * 查询指定用户的博文
+     *
+     * @param user_id
+     * @return
+     */
+    public List<Weibo> search_by_userid(int user_id) {
+        List<Weibo> weiboList = weiboDAO.search_by_userid(user_id);
+
+        return weiboList;
+    }
+
+    /**
+     * 查询指定用户的博文数
+     *
+     * @param user_id
+     * @return
+     */
+    public int get_weibo_count(int user_id) {
+        int result = weiboDAO.get_weibo_count(user_id);
+
+        return result;
+    }
 }

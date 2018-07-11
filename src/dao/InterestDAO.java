@@ -127,4 +127,19 @@ public class InterestDAO {
         }
         return result;
     }
+
+    /**
+     * 获取所有趣点列表
+     *
+     * @return
+     */
+    public List<Interest> get_all_interests() {
+        SqlSessionFactory factory = MyBatisUtils.getFactory();
+        SqlSession sqlSession = factory.openSession();
+
+        String statement = "db.mapper.get_all_interests";
+        List<Interest> list = sqlSession.selectList(statement);
+
+        return list;
+    }
 }

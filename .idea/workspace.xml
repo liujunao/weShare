@@ -2,16 +2,100 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46741205-bd62-404e-a14c-f168501d9ef2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jackson-annotations-2.9.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jackson-core-2.9.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jackson-databind-2.9.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jjwt-0.6.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/JWTUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/static/fonts/element-icons.6f0a763.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/static/img/1.d7d4869.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/static/img/2.244698d.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/static/img/3.b17c3e0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/static/img/4.a8af4f2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/static/img/404-01.d01f374.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/static/img/5.d95ba6e.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/static/img/logo.d7e4ba3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/static/img/register.cf13193.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/static/img/woman.d563d24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/user/th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/CacheUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/static/js/manifest.2ae2e69a05c33dfc65f8.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/statics/images/user/th.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/statics/images/user/th.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/Test.class" afterPath="$PROJECT_DIR$/classes/Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/common/DataToJson.class" afterPath="$PROJECT_DIR$/classes/common/DataToJson.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/common/JWTUtils.class" afterPath="$PROJECT_DIR$/classes/common/JWTUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/common/JsonCommon.class" afterPath="$PROJECT_DIR$/classes/common/JsonCommon.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/common/TimeCommon.class" afterPath="$PROJECT_DIR$/classes/common/TimeCommon.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/controller/InterestController.class" afterPath="$PROJECT_DIR$/classes/controller/InterestController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/controller/MessageController.class" afterPath="$PROJECT_DIR$/classes/controller/MessageController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/controller/SystemController.class" afterPath="$PROJECT_DIR$/classes/controller/SystemController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/controller/UserController.class" afterPath="$PROJECT_DIR$/classes/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/controller/WeiboController.class" afterPath="$PROJECT_DIR$/classes/controller/WeiboController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/dao/CommentDAO.class" afterPath="$PROJECT_DIR$/classes/dao/CommentDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/dao/FollowDAO.class" afterPath="$PROJECT_DIR$/classes/dao/FollowDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/dao/InterestDAO.class" afterPath="$PROJECT_DIR$/classes/dao/InterestDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/dao/User_interestDAO.class" afterPath="$PROJECT_DIR$/classes/dao/User_interestDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/dao/WeiboDAO.class" afterPath="$PROJECT_DIR$/classes/dao/WeiboDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/model/User.class" afterPath="$PROJECT_DIR$/classes/model/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/service/CommentService.class" afterPath="$PROJECT_DIR$/classes/service/CommentService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/service/FollowService.class" afterPath="$PROJECT_DIR$/classes/service/FollowService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/service/InterestService.class" afterPath="$PROJECT_DIR$/classes/service/InterestService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/service/User_interestService.class" afterPath="$PROJECT_DIR$/classes/service/User_interestService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/service/WeiboService.class" afterPath="$PROJECT_DIR$/classes/service/WeiboService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/Test.class" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/common/DataToJson.class" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/common/DataToJson.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/common/JsonCommon.class" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/common/JsonCommon.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/common/TimeCommon.class" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/common/TimeCommon.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/controller/InterestController.class" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/controller/InterestController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/controller/MessageController.class" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/controller/MessageController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/controller/SystemController.class" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/controller/SystemController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/controller/UserController.class" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/controller/WeiboController.class" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/controller/WeiboController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/dao/CommentDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/dao/CommentDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/dao/FollowDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/dao/FollowDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/dao/InterestDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/dao/InterestDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/dao/User_interestDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/dao/User_interestDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/dao/WeiboDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/dao/WeiboDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/model/User.class" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/model/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/service/CommentService.class" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/service/CommentService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/service/FollowService.class" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/service/FollowService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/service/InterestService.class" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/service/InterestService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/service/User_interestService.class" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/service/User_interestService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/service/WeiboService.class" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/service/WeiboService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/weShare2_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/weShare2_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c49de6c7-6726-4438-a35a-ec47b750113c.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/c49de6c7-6726-4438-a35a-ec47b750113c.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/db/mapper.xml" afterPath="$PROJECT_DIR$/classes/db/mapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/log4j.xml" afterPath="$PROJECT_DIR$/classes/log4j.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/db/mapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/db/mapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/log4j.xml" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/classes/log4j.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/weShare2_war_exploded/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/DataToJson.java" afterPath="$PROJECT_DIR$/src/common/DataToJson.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/JWTUtils.java" afterPath="$PROJECT_DIR$/src/common/JWTUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/JsonCommon.java" afterPath="$PROJECT_DIR$/src/common/JsonCommon.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/TimeCommon.java" afterPath="$PROJECT_DIR$/src/common/TimeCommon.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/InterestController.java" afterPath="$PROJECT_DIR$/src/controller/InterestController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/MessageController.java" afterPath="$PROJECT_DIR$/src/controller/MessageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/SystemController.java" afterPath="$PROJECT_DIR$/src/controller/SystemController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/UserController.java" afterPath="$PROJECT_DIR$/src/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/WeiboController.java" afterPath="$PROJECT_DIR$/src/controller/WeiboController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/CommentDAO.java" afterPath="$PROJECT_DIR$/src/dao/CommentDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/FollowDAO.java" afterPath="$PROJECT_DIR$/src/dao/FollowDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/InterestDAO.java" afterPath="$PROJECT_DIR$/src/dao/InterestDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/User_interestDAO.java" afterPath="$PROJECT_DIR$/src/dao/User_interestDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/WeiboDAO.java" afterPath="$PROJECT_DIR$/src/dao/WeiboDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/db/mapper.xml" afterPath="$PROJECT_DIR$/src/db/mapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log4j.xml" afterPath="$PROJECT_DIR$/src/log4j.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/User.java" afterPath="$PROJECT_DIR$/src/model/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/CommentService.java" afterPath="$PROJECT_DIR$/src/service/CommentService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/FollowService.java" afterPath="$PROJECT_DIR$/src/service/FollowService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/InterestService.java" afterPath="$PROJECT_DIR$/src/service/InterestService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/User_interestService.java" afterPath="$PROJECT_DIR$/src/service/User_interestService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/WeiboService.java" afterPath="$PROJECT_DIR$/src/service/WeiboService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Test.java" afterPath="$PROJECT_DIR$/test/Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,7 +151,7 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="user" />
+        <option name="myItemId" value="interest" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -75,97 +159,71 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/db/mapper.xml">
+      <file leaf-file-name="WeiboController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/WeiboController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="56" column="15" lean-forward="false" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="15" />
+            <state relative-caret-position="1704">
+              <caret line="390" column="7" lean-forward="true" selection-start-line="390" selection-start-column="7" selection-end-line="390" selection-end-column="7" />
               <folding>
-                <marker date="1530331294640" expanded="true" signature="284:364" ph="select * fro... user" />
-                <marker date="1530331294640" expanded="true" signature="451:650" ph="insert into user... " />
-                <marker date="1530331294640" expanded="true" signature="771:808" ph="select * fro... user" />
-                <marker date="1530331294640" expanded="true" signature="902:941" ph="select * fro... user" />
-                <marker date="1530331294640" expanded="true" signature="1042:1099" ph="update user " />
-                <marker date="1530331294640" expanded="true" signature="1239:1275" ph="select name user" />
-                <marker date="1530331294640" expanded="true" signature="1401:1425" ph="select * fro... user" />
-                <marker date="1530331294640" expanded="true" signature="1401:1446" ph="select * fro... user" />
-                <marker date="1530331294640" expanded="true" signature="1539:1614" ph="update user " />
-                <marker date="1530331294640" expanded="true" signature="1740:1773" ph="select * fro... user" />
-                <marker date="1530331294640" expanded="true" signature="1870:1954" ph="update user " />
-                <marker date="1530331294640" expanded="true" signature="2046:2093" ph="update user " />
-                <marker date="1530331294640" expanded="true" signature="2188:2213" ph="select COUNT... user" />
-                <marker date="1530331294640" expanded="true" signature="2339:2384" ph="select * fro... user" />
-                <marker date="1530331294640" expanded="true" signature="2478:2533" ph="update user " />
-                <marker date="1530331294640" expanded="true" signature="2645:2823" ph="insert into weibo... " />
-                <marker date="1530331294640" expanded="true" signature="2934:2979" ph="select id fr... weibo" />
-                <marker date="1530331294640" expanded="true" signature="3076:3124" ph="update weibo... " />
-                <marker date="1530331294640" expanded="true" signature="3076:3135" ph="update weibo... " />
-                <marker date="1530331294640" expanded="true" signature="3232:3293" ph="update weibo... " />
-                <marker date="1530331294640" expanded="true" signature="3392:3449" ph="UPDATE weibo... " />
-                <marker date="1530331294640" expanded="true" signature="3571:3650" ph="SELECT * fro... weibo" />
-                <marker date="1530331294640" expanded="true" signature="3577:3623" ph="select * fro... weibo" />
-                <marker date="1530331294640" expanded="true" signature="3577:3626" ph="select * fro... weibo" />
-                <marker date="1530331294640" expanded="true" signature="3577:3650" ph="select * fro... weibo" />
-                <marker date="1530331294640" expanded="true" signature="3798:3838" ph="select * fro... weibo" />
-                <marker date="1530331294640" expanded="true" signature="3945:3977" ph="DELETE FROM " />
-                <marker date="1530331294640" expanded="true" signature="4081:4095" ph="select * fro... user" />
-                <marker date="1530331294640" expanded="true" signature="4081:4126" ph="select * fro... weibo" />
-                <marker date="1530331294640" expanded="true" signature="4279:4358" ph="insert into thumb_weibo_user... " />
-                <marker date="1530331294640" expanded="true" signature="4478:4558" ph="select * fro... thumb_weibo_user" />
-                <marker date="1530331294640" expanded="true" signature="4704:4790" ph="insert into weibo_interest... " />
-                <marker date="1530331294640" expanded="true" signature="4921:4992" ph="select weibo... weibo_interest" />
-                <marker date="1530331294640" expanded="true" signature="5127:5197" ph="select weibo... weibo_interest" />
-                <marker date="1530331294640" expanded="true" signature="5315:5467" ph="insert into comment... " />
-                <marker date="1530331294640" expanded="true" signature="5563:5607" ph="DELETE FROM " />
-                <marker date="1530331294640" expanded="true" signature="5563:5620" ph="DELETE FROM " />
-                <marker date="1530331294640" expanded="true" signature="5743:5829" ph="insert into follow... " />
-                <marker date="1530331294640" expanded="true" signature="5990:6027" ph="select * fro... interest" />
-                <marker date="1530331294640" expanded="true" signature="6126:6155" ph="select COUNT... interest" />
-                <marker date="1530331294640" expanded="true" signature="6289:6338" ph="select * fro... interest" />
-                <marker date="1530331294640" expanded="true" signature="6472:6518" ph="select * fro... interest" />
-                <marker date="1530331294640" expanded="true" signature="6617:6661" ph="insert into interest... " />
-                <marker date="1530331294640" expanded="true" signature="6757:6792" ph="DELETE FROM " />
-                <marker date="1530331294640" expanded="true" signature="6922:7036" ph="insert into user_interest... " />
-                <marker date="1530331294640" expanded="true" signature="7142:7192" ph="DELETE FROM " />
-                <marker date="1530331294640" expanded="true" signature="7142:7223" ph="DELETE FROM " />
-                <marker date="1530331294640" expanded="true" signature="7357:7409" ph="select * fro... user_interest" />
+                <element signature="method#search#0;class#WeiboController#0" expanded="false" />
+                <element signature="method#getListMap#0;class#WeiboController#0" expanded="false" />
+                <element signature="method#getMap#0;class#WeiboController#0" expanded="false" />
+                <element signature="method#searchUser#0;class#WeiboController#0" expanded="false" />
+                <element signature="method#getInterests#0;class#WeiboController#0" expanded="false" />
+                <element signature="method#thumbWeibo#0;class#WeiboController#0" expanded="false" />
+                <element signature="method#delete#0;class#WeiboController#0" expanded="false" />
+                <element signature="method#getDetail#0;class#WeiboController#0" expanded="false" />
+                <element signature="method#comment#0;class#WeiboController#0" expanded="false" />
+                <element signature="method#del_comment#0;class#WeiboController#0" expanded="false" />
+                <element signature="method#look_hot#0;class#WeiboController#0" expanded="false" />
+                <element signature="method#look_insterest#0;class#WeiboController#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/UserController.java">
+      <file leaf-file-name="SystemController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/SystemController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="131" column="43" lean-forward="true" selection-start-line="131" selection-start-column="43" selection-end-line="131" selection-end-column="43" />
+            <state relative-caret-position="174">
+              <caret line="112" column="5" lean-forward="true" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
               <folding>
-                <element signature="method#register#0;class#UserController#0" expanded="false" />
-                <element signature="method#login#0;class#UserController#0" expanded="false" />
+                <element signature="method#interest_search#0;class#SystemController#0" expanded="false" />
+                <element signature="method#weibo_search#0;class#SystemController#0" expanded="false" />
+                <element signature="method#weibo_delete#0;class#SystemController#0" expanded="false" />
+                <element signature="method#user_search#0;class#SystemController#0" expanded="false" />
+                <element signature="method#user_banned#0;class#SystemController#0" expanded="false" />
+                <element signature="method#searchComment#0;class#SystemController#0" expanded="false" />
+                <element signature="method#deleteComment#0;class#SystemController#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JWTUtils.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/common/JWTUtils.java">
+      <file leaf-file-name="MessageController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/MessageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="1403">
+              <caret line="187" column="71" lean-forward="true" selection-start-line="187" selection-start-column="71" selection-end-line="187" selection-end-column="71" />
               <folding>
-                <element signature="method#getKeyInstance#0;class#JWTUtils#0" expanded="false" />
-                <element signature="method#createJWT#0;class#JWTUtils#0" expanded="false" />
+                <element signature="method#modify#0;class#MessageController#0" expanded="false" />
+                <element signature="method#modifyPassword#0;class#MessageController#0" expanded="false" />
+                <element signature="method#postFollow#0;class#MessageController#0" expanded="false" />
+                <element signature="method#getFollow#0;class#MessageController#0" expanded="false" />
+                <element signature="method#searchFollows#0;class#MessageController#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Test.java">
+      <file leaf-file-name="InterestController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/controller/InterestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="415">
+              <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="20" />
+              <folding>
+                <element signature="method#look_list_interest#0;class#InterestController#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,11 +243,17 @@
       <find>objectMapper</find>
       <find>JSONArray</find>
       <find>thumb_weibo_user</find>
-      <find>LIKE</find>
       <find>search_user</find>
       <find>subStr</find>
       <find>update_password</find>
       <find>add_interest</find>
+      <find>web\statics\images\user</find>
+      <find>weibo_interestService</find>
+      <find>search_by_interest</find>
+      <find>LIKE</find>
+      <find>weiboService</find>
+      <find>get_interest_limit</find>
+      <find>search_comment</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -203,57 +267,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/lib/spring-web-4.3.18.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class" />
-        <option value="$PROJECT_DIR$/lib/spring-webmvc-4.3.18.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class" />
-        <option value="$PROJECT_DIR$/lib/spring-webmvc-4.3.18.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class" />
-        <option value="$PROJECT_DIR$/lib/spring-web-4.3.18.RELEASE.jar!/org/springframework/web/context/request/AbstractRequestAttributes.class" />
         <option value="$PROJECT_DIR$/src/common/JsonRequestMessageConverter.java" />
         <option value="$PROJECT_DIR$/src/model/Thumb_weibo_user.java" />
         <option value="$PROJECT_DIR$/src/dao/Thumb_weibo_user.java" />
         <option value="$PROJECT_DIR$/src/service/Thumb_weibo_userService.java" />
-        <option value="$PROJECT_DIR$/src/common/TimeCommon.java" />
-        <option value="$PROJECT_DIR$/src/common/JsonCommon.java" />
         <option value="$PROJECT_DIR$/src/model/Weibo_interest.java" />
         <option value="$PROJECT_DIR$/src/dao/Thumb_weibo_userDAO.java" />
         <option value="$PROJECT_DIR$/src/model/Weibo.java" />
         <option value="$PROJECT_DIR$/src/model/Comment.java" />
-        <option value="$PROJECT_DIR$/src/dao/CommentDAO.java" />
-        <option value="$PROJECT_DIR$/src/service/CommentService.java" />
-        <option value="$PROJECT_DIR$/src/dao/WeiboDAO.java" />
-        <option value="$PROJECT_DIR$/src/service/WeiboService.java" />
         <option value="$PROJECT_DIR$/src/dao/Weibo_interestDAO.java" />
         <option value="$PROJECT_DIR$/src/service/Weibo_interestService.java" />
-        <option value="$PROJECT_DIR$/src/controller/WeiboController.java" />
         <option value="$PROJECT_DIR$/src/model/Follow.java" />
-        <option value="$PROJECT_DIR$/src/dao/FollowDAO.java" />
-        <option value="$PROJECT_DIR$/src/service/FollowService.java" />
-        <option value="$PROJECT_DIR$/src/controller/MessageController.java" />
         <option value="$PROJECT_DIR$/src/model/User_interest.java" />
-        <option value="$PROJECT_DIR$/src/dao/User_interestDAO.java" />
-        <option value="$PROJECT_DIR$/src/service/User_interestService.java" />
-        <option value="$PROJECT_DIR$/src/controller/InterestController.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c49de6c7-6726-4438-a35a-ec47b750113c/console.sql" />
-        <option value="$PROJECT_DIR$/src/dao/InterestDAO.java" />
-        <option value="$PROJECT_DIR$/src/service/InterestService.java" />
-        <option value="$PROJECT_DIR$/src/model/User.java" />
-        <option value="$PROJECT_DIR$/src/db/mapper.xml" />
         <option value="$PROJECT_DIR$/src/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/controller/SystemController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/lib/spring-web-4.3.18.RELEASE.jar!/org/springframework/web/multipart/commons/CommonsMultipartFile.class" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/common/AuthUtils.java" />
-        <option value="$PROJECT_DIR$/src/controller/UserController.java" />
         <option value="$PROJECT_DIR$/lib/jackson-databind-2.9.6.jar!/com/fasterxml/jackson/databind/ObjectMapper.class" />
         <option value="$PROJECT_DIR$/lib/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/ObjectCodec.class" />
         <option value="$PROJECT_DIR$/lib/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/TreeCodec.class" />
         <option value="$PROJECT_DIR$/lib/jackson-databind-2.9.6.jar!/com/fasterxml/jackson/databind/MappingJsonFactory.class" />
         <option value="$PROJECT_DIR$/lib/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/JsonFactory.class" />
         <option value="$PROJECT_DIR$/lib/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.class" />
-        <option value="$PROJECT_DIR$/test/Test.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/model/User.java" />
+        <option value="$PROJECT_DIR$/src/common/CacheUtils.java" />
         <option value="$PROJECT_DIR$/src/common/JWTUtils.java" />
+        <option value="$PROJECT_DIR$/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/common/TimeCommon.java" />
+        <option value="$PROJECT_DIR$/src/common/JsonCommon.java" />
+        <option value="$PROJECT_DIR$/src/log4j.xml" />
+        <option value="$PROJECT_DIR$/src/common/DataToJson.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/dao/InterestDAO.java" />
+        <option value="$PROJECT_DIR$/src/service/InterestService.java" />
+        <option value="$PROJECT_DIR$/src/dao/FollowDAO.java" />
+        <option value="$PROJECT_DIR$/src/service/FollowService.java" />
+        <option value="$PROJECT_DIR$/src/dao/WeiboDAO.java" />
+        <option value="$PROJECT_DIR$/src/service/WeiboService.java" />
+        <option value="$PROJECT_DIR$/src/dao/User_interestDAO.java" />
+        <option value="$PROJECT_DIR$/src/service/User_interestService.java" />
+        <option value="$PROJECT_DIR$/src/db/mapper.xml" />
+        <option value="$PROJECT_DIR$/src/service/CommentService.java" />
+        <option value="$PROJECT_DIR$/src/dao/CommentDAO.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c49de6c7-6726-4438-a35a-ec47b750113c/console.sql" />
+        <option value="dbtable:/44d3c83/c49de6c7-6726-4438-a35a-ec47b750113c/weshare.user" />
+        <option value="$PROJECT_DIR$/src/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/controller/WeiboController.java" />
+        <option value="$PROJECT_DIR$/src/controller/MessageController.java" />
+        <option value="$PROJECT_DIR$/src/controller/InterestController.java" />
+        <option value="$PROJECT_DIR$/src/controller/SystemController.java" />
       </list>
     </option>
   </component>
@@ -294,7 +358,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -317,7 +381,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -353,41 +417,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weShare2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weShare2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weShare2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weShare2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -395,17 +427,22 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/statics/images/user" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sendMail" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.24885845" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workCode\java\weShare2\web\user" />
+      <recent name="D:\workCode\java\weShare2\web" />
       <recent name="D:\workCode\java\weShare2\lib" />
       <recent name="D:\workCode\java\weShare2\web\statics\images\user" />
       <recent name="D:\workCode\java\weShare2\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workCode\java\weShare2\web\static\img\user" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -420,70 +457,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test.testJWT">
-    <configuration default="false" name="Test.stringToJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="weShare2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <option name="METHOD_NAME" value="stringToJson" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="Test.gsonToJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="weShare2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <option name="METHOD_NAME" value="gsonToJson" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="Test.testJWT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="weShare2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <option name="METHOD_NAME" value="testJWT" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings />
@@ -883,6 +857,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M17" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="weShare2:war exploded">
@@ -890,14 +865,9 @@
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
-        <file path="$PROJECT_DIR$/web/statics/images/user">
-          <settings>
-            <option name="CONTEXT_PATH" value="/userImg" />
-          </settings>
-        </file>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_weShare2" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_weShare2_4" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -906,7 +876,7 @@
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="49693" />
+        <option name="DEBUG_PORT" value="59220" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -959,19 +929,9 @@
         </option>
       </method>
     </configuration>
-    <list size="4">
+    <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Test.stringToJson" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Test.gsonToJson" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Test.testJWT" />
     </list>
-    <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Test.testJWT" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Test.gsonToJson" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Test.stringToJson" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -990,44 +950,56 @@
       <workItem from="1530254038695" duration="18241000" />
       <workItem from="1530322566695" duration="9026000" />
       <workItem from="1530342089600" duration="5676000" />
-      <workItem from="1530536477226" duration="7071000" />
+      <workItem from="1530536477226" duration="8319000" />
+      <workItem from="1530601434932" duration="7551000" />
+      <workItem from="1531121942775" duration="8771000" />
+      <workItem from="1531185086595" duration="37936000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_testJWT - 2018.07.02 at 22h 33m 24s.xml">
+    <history-entry file="Test_testCache - 2018.07.10 at 09h 32m 29s.xml">
+      <configuration name="Test.testCache" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testCache - 2018.07.10 at 09h 49m 24s.xml">
+      <configuration name="Test.testCache" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testGetCache - 2018.07.10 at 09h 33m 11s.xml">
+      <configuration name="Test.testGetCache" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testGetCache - 2018.07.10 at 09h 49m 29s.xml">
+      <configuration name="Test.testGetCache" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testGetCache - 2018.07.10 at 10h 21m 44s.xml">
+      <configuration name="Test.testGetCache" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testGetCache - 2018.07.10 at 10h 22m 49s.xml">
+      <configuration name="Test.testGetCache" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testJWT - 2018.07.02 at 23h 28m 29s.xml">
       <configuration name="Test.testJWT" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_testJWT - 2018.07.02 at 22h 42m 10s.xml">
+    <history-entry file="Test_testJWT - 2018.07.02 at 23h 28m 49s.xml">
       <configuration name="Test.testJWT" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_testJWT - 2018.07.02 at 22h 44m 04s.xml">
+    <history-entry file="Test_testJWT - 2018.07.02 at 23h 29m 11s.xml">
       <configuration name="Test.testJWT" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_testJWT - 2018.07.02 at 22h 45m 06s.xml">
-      <configuration name="Test.testJWT" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_testJWT - 2018.07.02 at 22h 45m 26s.xml">
-      <configuration name="Test.testJWT" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_testJWT - 2018.07.02 at 22h 45m 51s.xml">
-      <configuration name="Test.testJWT" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_testJWT - 2018.07.02 at 22h 46m 13s.xml">
-      <configuration name="Test.testJWT" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_testJWT - 2018.07.02 at 22h 48m 00s.xml">
-      <configuration name="Test.testJWT" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_testJWT - 2018.07.02 at 22h 48m 19s.xml">
-      <configuration name="Test.testJWT" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_testJWT - 2018.07.02 at 22h 48m 30s.xml">
+    <history-entry file="Test_testJWT - 2018.07.03 at 15h 09m 37s.xml">
       <configuration name="Test.testJWT" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60750000" />
+    <option name="totallyTimeSpent" value="116256000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1041,23 +1013,25 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22314675" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1732224" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55060035" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270548" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32590052" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41509435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48370498" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20196672" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36878216" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1860817" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1065,8 +1039,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.369863" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1077,7 +1049,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1086,7 +1058,217 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/44d3c83/c49de6c7-6726-4438-a35a-ec47b750113c/weshare.thumb_weibo_user">
+    <entry file="jar://$PROJECT_DIR$/lib/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/ObjectCodec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jackson-databind-2.9.6.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="171" column="0" lean-forward="false" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jackson-databind-2.9.6.jar!/com/fasterxml/jackson/databind/MappingJsonFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/JsonFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/pro/java/jdk/src.zip!/java/io/IOException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/DesUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/HtmlCommon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/HttpCommon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3612#3613#0" expanded="false" />
+            <element signature="e#3684#3685#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/CacheUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="12" column="72" lean-forward="false" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="139" column="35" lean-forward="false" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="35" />
+          <folding>
+            <element signature="method#User#0;class#User#0" expanded="false" />
+            <element signature="method#User#1;class#User#0" expanded="false" />
+            <element signature="method#User#2;class#User#0" expanded="false" />
+            <element signature="method#User#3;class#User#0" expanded="false" />
+            <element signature="method#User#4;class#User#0" expanded="false" />
+            <element signature="method#User#5;class#User#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/JWTUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/TimeCommon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="12" column="61" lean-forward="false" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1270">
+          <caret line="69" column="47" lean-forward="false" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
+          <folding>
+            <element signature="e#2327#2328#0" expanded="true" />
+            <element signature="e#2383#2384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/JsonCommon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="method#toJsonObject#0;class#JsonCommon#0" expanded="false" />
+            <element signature="method#jsonArrayToObject#0;class#JsonCommon#0" expanded="false" />
+            <element signature="method#getObjectList#0;class#JsonCommon#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/DataToJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="129" column="37" lean-forward="true" selection-start-line="129" selection-start-column="37" selection-end-line="129" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Follow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="35" column="59" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/44d3c83/c49de6c7-6726-4438-a35a-ec47b750113c/weshare.follow">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -1095,33 +1277,215 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Thumb_weibo_user.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="35" column="61" lean-forward="false" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Weibo.java">
+    <entry file="file://$PROJECT_DIR$/src/dao/FollowDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="85" column="18" lean-forward="false" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+        <state relative-caret-position="46">
+          <caret line="119" column="12" lean-forward="true" selection-start-line="119" selection-start-column="7" selection-end-line="119" selection-end-column="12" />
+          <folding>
+            <element signature="method#get_follow_count#0;class#FollowDAO#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="178" column="56" lean-forward="true" selection-start-line="178" selection-start-column="56" selection-end-line="178" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/WeiboDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="193" column="17" lean-forward="false" selection-start-line="193" selection-start-column="7" selection-end-line="193" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/WeiboService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="134" column="17" lean-forward="false" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/FollowService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="59" column="22" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/InterestDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="58" column="56" lean-forward="false" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/InterestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="45" column="46" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/Weibo_interestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="46" column="56" lean-forward="true" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/Weibo_interestDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="62" column="26" lean-forward="false" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/User_interestDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="98" column="24" lean-forward="true" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="24" />
+          <folding>
+            <element signature="method#add_interest#0;class#User_interestDAO#0" expanded="false" />
+            <element signature="method#cancel_interest#0;class#User_interestDAO#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/User_interestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="65" column="24" lean-forward="false" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/pro/java/jdk/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c49de6c7-6726-4438-a35a-ec47b750113c/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/CommentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/service/CommentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        <state relative-caret-position="410">
+          <caret line="63" column="17" lean-forward="false" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/44d3c83/c49de6c7-6726-4438-a35a-ec47b750113c/weshare.comment">
+    <entry file="file://$PROJECT_DIR$/src/db/mapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1442">
+          <caret line="142" column="31" lean-forward="false" selection-start-line="142" selection-start-column="31" selection-end-line="142" selection-end-column="31" />
+          <folding>
+            <marker date="1531230185345" expanded="true" signature="284:364" ph="select * fro... user" />
+            <marker date="1531230185345" expanded="true" signature="451:673" ph="insert into user... " />
+            <marker date="1531230185345" expanded="true" signature="794:831" ph="select * fro... user" />
+            <marker date="1531230185345" expanded="true" signature="925:964" ph="select * fro... user" />
+            <marker date="1531230185345" expanded="true" signature="1065:1122" ph="update user " />
+            <marker date="1531230185345" expanded="true" signature="1262:1298" ph="select name user" />
+            <marker date="1531230185345" expanded="true" signature="1424:1448" ph="select * fro... user" />
+            <marker date="1531230185345" expanded="true" signature="1424:1469" ph="select * fro... user" />
+            <marker date="1531230185345" expanded="true" signature="1562:1637" ph="update user " />
+            <marker date="1531230185345" expanded="true" signature="1763:1796" ph="select * fro... user" />
+            <marker date="1531230185345" expanded="true" signature="1893:1977" ph="update user " />
+            <marker date="1531230185345" expanded="true" signature="2069:2116" ph="update user " />
+            <marker date="1531230185345" expanded="true" signature="2211:2236" ph="select COUNT... user" />
+            <marker date="1531230185345" expanded="true" signature="2362:2407" ph="select * fro... user" />
+            <marker date="1531230185345" expanded="true" signature="2501:2556" ph="update user " />
+            <marker date="1531230185345" expanded="true" signature="2668:2846" ph="insert into weibo... " />
+            <marker date="1531230185345" expanded="true" signature="2957:3002" ph="select id fr... weibo" />
+            <marker date="1531230185345" expanded="true" signature="3099:3147" ph="update weibo... " />
+            <marker date="1531230185345" expanded="true" signature="3099:3158" ph="update weibo... " />
+            <marker date="1531230185345" expanded="true" signature="3255:3316" ph="update weibo... " />
+            <marker date="1531230185345" expanded="true" signature="3415:3472" ph="UPDATE weibo... " />
+            <marker date="1531230185345" expanded="true" signature="3594:3673" ph="SELECT * fro... weibo" />
+            <marker date="1531230185345" expanded="true" signature="3600:3646" ph="select * fro... weibo" />
+            <marker date="1531230185345" expanded="true" signature="3600:3649" ph="select * fro... weibo" />
+            <marker date="1531230185345" expanded="true" signature="3600:3673" ph="select * fro... weibo" />
+            <marker date="1531230185345" expanded="true" signature="3821:3861" ph="select * fro... weibo" />
+            <marker date="1531230185345" expanded="true" signature="3968:4000" ph="DELETE FROM " />
+            <marker date="1531230185345" expanded="true" signature="4104:4118" ph="select * fro... user" />
+            <marker date="1531230185345" expanded="true" signature="4104:4149" ph="select * fro... weibo" />
+            <marker date="1531230185345" expanded="true" signature="4269:4313" ph="select * fro... weibo" />
+            <marker date="1531230185345" expanded="true" signature="4467:4546" ph="insert into thumb_weibo_user... " />
+            <marker date="1531230185345" expanded="true" signature="4666:4746" ph="select * fro... thumb_weibo_user" />
+            <marker date="1531230185345" expanded="true" signature="4892:4978" ph="insert into weibo_interest... " />
+            <marker date="1531230185345" expanded="true" signature="5109:5180" ph="select weibo... weibo_interest" />
+            <marker date="1531230185345" expanded="true" signature="5315:5385" ph="select weibo... weibo_interest" />
+            <marker date="1531230185345" expanded="true" signature="5504:5656" ph="insert into comment... " />
+            <marker date="1531230185345" expanded="true" signature="5752:5786" ph="DELETE FROM " />
+            <marker date="1531230185345" expanded="true" signature="5752:5809" ph="DELETE FROM " />
+            <marker date="1531230185345" expanded="true" signature="5888:5922" ph="DELETE FROM " />
+            <marker date="1531230185345" expanded="true" signature="6052:6100" ph="select * fro... comment" />
+            <marker date="1531230185345" expanded="true" signature="6224:6275" ph="select * fro... comment" />
+            <marker date="1531230185345" expanded="true" signature="6399:6485" ph="insert into follow... " />
+            <marker date="1531230185345" expanded="true" signature="6579:6663" ph="DELETE FROM " />
+            <marker date="1531230185345" expanded="true" signature="6778:6864" ph="select * fro... follow" />
+            <marker date="1531230185345" expanded="true" signature="6980:7035" ph="select * fro... follow" />
+            <marker date="1531230185345" expanded="true" signature="7148:7208" ph="select COUNT... follow" />
+            <marker date="1531230185345" expanded="true" signature="7369:7406" ph="select * fro... interest" />
+            <marker date="1531230185345" expanded="true" signature="7505:7534" ph="select COUNT... interest" />
+            <marker date="1531230185345" expanded="true" signature="7668:7717" ph="select * fro... interest" />
+            <marker date="1531230185345" expanded="true" signature="7851:7897" ph="select * fro... interest" />
+            <marker date="1531230185345" expanded="true" signature="7996:8040" ph="insert into interest... " />
+            <marker date="1531230185345" expanded="true" signature="8136:8171" ph="DELETE FROM " />
+            <marker date="1531230185345" expanded="true" signature="8274:8296" ph="select * fro... interest" />
+            <marker date="1531230185345" expanded="true" signature="8427:8541" ph="insert into user_interest... " />
+            <marker date="1531230185345" expanded="true" signature="8647:8697" ph="DELETE FROM " />
+            <marker date="1531230185345" expanded="true" signature="8647:8728" ph="DELETE FROM " />
+            <marker date="1531230185345" expanded="true" signature="8862:8914" ph="select * fro... user_interest" />
+            <marker date="1531230185345" expanded="true" signature="9054:9114" ph="select * fro... user_interest" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#UserController#0" expanded="false" />
+            <element signature="method#register#0;class#UserController#0" expanded="false" />
+            <element signature="method#login#0;class#UserController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/44d3c83/c49de6c7-6726-4438-a35a-ec47b750113c/weshare.interest">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -1130,6 +1494,7 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,194 +1507,58 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="73" column="41" lean-forward="false" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/CommentDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/MessageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="44" column="59" lean-forward="true" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/WeiboDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="168" column="60" lean-forward="true" selection-start-line="168" selection-start-column="60" selection-end-line="168" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/Weibo_interestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/Weibo_interestDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="52" column="25" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/WeiboService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="92" column="16" lean-forward="false" selection-start-line="92" selection-start-column="11" selection-end-line="92" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/44d3c83/c49de6c7-6726-4438-a35a-ec47b750113c/weshare.weibo_interest">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/FollowService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/FollowDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Follow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/User_interestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/User_interestDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1263">
-          <caret line="60" column="18" lean-forward="true" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/User_interest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="56" column="18" lean-forward="false" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+        <state relative-caret-position="1403">
+          <caret line="187" column="71" lean-forward="true" selection-start-line="187" selection-start-column="71" selection-end-line="187" selection-end-column="71" />
           <folding>
-            <element signature="e#240#241#0" expanded="false" />
-            <element signature="e#276#277#0" expanded="false" />
-            <element signature="e#334#335#0" expanded="false" />
-            <element signature="e#384#385#0" expanded="false" />
+            <element signature="method#modify#0;class#MessageController#0" expanded="false" />
+            <element signature="method#modifyPassword#0;class#MessageController#0" expanded="false" />
+            <element signature="method#postFollow#0;class#MessageController#0" expanded="false" />
+            <element signature="method#getFollow#0;class#MessageController#0" expanded="false" />
+            <element signature="method#searchFollows#0;class#MessageController#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c49de6c7-6726-4438-a35a-ec47b750113c/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/controller/SystemController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/InterestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="75" column="11" lean-forward="false" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/InterestDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="107" column="11" lean-forward="false" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2369">
-          <caret line="143" column="40" lean-forward="false" selection-start-line="143" selection-start-column="40" selection-end-line="143" selection-end-column="40" />
+        <state relative-caret-position="174">
+          <caret line="112" column="5" lean-forward="true" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
           <folding>
-            <element signature="e#411#412#0" expanded="false" />
-            <element signature="e#446#447#0" expanded="false" />
-            <element signature="e#502#503#0" expanded="false" />
-            <element signature="e#550#551#0" expanded="false" />
-            <element signature="e#580#581#0" expanded="false" />
-            <element signature="e#609#610#0" expanded="false" />
-            <element signature="e#650#651#0" expanded="false" />
-            <element signature="e#686#687#0" expanded="false" />
-            <element signature="e#718#719#0" expanded="false" />
-            <element signature="e#746#747#0" expanded="false" />
-            <element signature="e#788#789#0" expanded="false" />
-            <element signature="e#822#823#0" expanded="false" />
-            <element signature="e#859#860#0" expanded="false" />
-            <element signature="e#892#893#0" expanded="false" />
-            <element signature="e#944#945#0" expanded="false" />
-            <element signature="e#988#989#0" expanded="false" />
-            <element signature="e#1028#1029#0" expanded="false" />
-            <element signature="e#1064#1065#0" expanded="false" />
-            <element signature="e#1122#1123#0" expanded="false" />
-            <element signature="e#1172#1173#0" expanded="false" />
-            <element signature="e#1205#1206#0" expanded="false" />
-            <element signature="e#1237#1238#0" expanded="false" />
-            <element signature="e#1284#1285#0" expanded="false" />
-            <element signature="e#1326#1327#0" expanded="false" />
-            <element signature="e#1361#1362#0" expanded="false" />
-            <element signature="e#1392#1393#0" expanded="false" />
-            <element signature="e#1440#1441#0" expanded="false" />
-            <element signature="e#1480#1481#0" expanded="false" />
-            <element signature="e#1506#1507#0" expanded="false" />
-            <element signature="e#1531#1532#0" expanded="false" />
-            <element signature="e#1564#1565#0" expanded="false" />
-            <element signature="e#1592#1593#0" expanded="false" />
-            <element signature="e#1623#1624#0" expanded="false" />
-            <element signature="e#1650#1651#0" expanded="false" />
-            <element signature="e#1690#1691#0" expanded="false" />
-            <element signature="e#1722#1723#0" expanded="false" />
-            <element signature="e#1754#1755#0" expanded="false" />
-            <element signature="e#1782#1783#0" expanded="false" />
-            <element signature="e#1824#1825#0" expanded="false" />
-            <element signature="e#1858#1859#0" expanded="false" />
+            <element signature="method#interest_search#0;class#SystemController#0" expanded="false" />
+            <element signature="method#weibo_search#0;class#SystemController#0" expanded="false" />
+            <element signature="method#weibo_delete#0;class#SystemController#0" expanded="false" />
+            <element signature="method#user_search#0;class#SystemController#0" expanded="false" />
+            <element signature="method#user_banned#0;class#SystemController#0" expanded="false" />
+            <element signature="method#searchComment#0;class#SystemController#0" expanded="false" />
+            <element signature="method#deleteComment#0;class#SystemController#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/UserDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/WeiboController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5014">
-          <caret line="223" column="13" lean-forward="false" selection-start-line="223" selection-start-column="7" selection-end-line="223" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3565">
-          <caret line="158" column="13" lean-forward="false" selection-start-line="158" selection-start-column="13" selection-end-line="158" selection-end-column="13" />
+        <state relative-caret-position="1704">
+          <caret line="390" column="7" lean-forward="true" selection-start-line="390" selection-start-column="7" selection-end-line="390" selection-end-column="7" />
+          <folding>
+            <element signature="method#search#0;class#WeiboController#0" expanded="false" />
+            <element signature="method#getListMap#0;class#WeiboController#0" expanded="false" />
+            <element signature="method#getMap#0;class#WeiboController#0" expanded="false" />
+            <element signature="method#searchUser#0;class#WeiboController#0" expanded="false" />
+            <element signature="method#getInterests#0;class#WeiboController#0" expanded="false" />
+            <element signature="method#thumbWeibo#0;class#WeiboController#0" expanded="false" />
+            <element signature="method#delete#0;class#WeiboController#0" expanded="false" />
+            <element signature="method#getDetail#0;class#WeiboController#0" expanded="false" />
+            <element signature="method#comment#0;class#WeiboController#0" expanded="false" />
+            <element signature="method#del_comment#0;class#WeiboController#0" expanded="false" />
+            <element signature="method#look_hot#0;class#WeiboController#0" expanded="false" />
+            <element signature="method#look_insterest#0;class#WeiboController#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1342,270 +1571,16 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/MessageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="106" column="31" lean-forward="false" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="31" />
-          <folding>
-            <element signature="method#modify#0;class#MessageController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/SystemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="232" column="31" lean-forward="false" selection-start-line="232" selection-start-column="20" selection-end-line="232" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/WeiboController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="121" column="79" lean-forward="false" selection-start-line="121" selection-start-column="79" selection-end-line="121" selection-end-column="79" />
-          <folding>
-            <element signature="method#issueWeibo#0;class#WeiboController#0" expanded="false" />
-            <element signature="method#thumbWeibo#0;class#WeiboController#0" expanded="false" />
-            <element signature="method#search#0;class#WeiboController#0" expanded="false" />
-            <element signature="method#delete#0;class#WeiboController#0" expanded="false" />
-            <element signature="method#comment#0;class#WeiboController#0" expanded="false" />
-            <element signature="method#del_comment#0;class#WeiboController#0" expanded="false" />
-            <element signature="method#look_hot#0;class#WeiboController#0" expanded="false" />
-            <element signature="method#look_insterest#0;class#WeiboController#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/InterestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="68" column="95" lean-forward="true" selection-start-line="68" selection-start-column="95" selection-end-line="68" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/mapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="56" column="15" lean-forward="false" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="15" />
+        <state relative-caret-position="415">
+          <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="20" />
           <folding>
-            <marker date="1530331294640" expanded="true" signature="284:364" ph="select * fro... user" />
-            <marker date="1530331294640" expanded="true" signature="451:650" ph="insert into user... " />
-            <marker date="1530331294640" expanded="true" signature="771:808" ph="select * fro... user" />
-            <marker date="1530331294640" expanded="true" signature="902:941" ph="select * fro... user" />
-            <marker date="1530331294640" expanded="true" signature="1042:1099" ph="update user " />
-            <marker date="1530331294640" expanded="true" signature="1239:1275" ph="select name user" />
-            <marker date="1530331294640" expanded="true" signature="1401:1425" ph="select * fro... user" />
-            <marker date="1530331294640" expanded="true" signature="1401:1446" ph="select * fro... user" />
-            <marker date="1530331294640" expanded="true" signature="1539:1614" ph="update user " />
-            <marker date="1530331294640" expanded="true" signature="1740:1773" ph="select * fro... user" />
-            <marker date="1530331294640" expanded="true" signature="1870:1954" ph="update user " />
-            <marker date="1530331294640" expanded="true" signature="2046:2093" ph="update user " />
-            <marker date="1530331294640" expanded="true" signature="2188:2213" ph="select COUNT... user" />
-            <marker date="1530331294640" expanded="true" signature="2339:2384" ph="select * fro... user" />
-            <marker date="1530331294640" expanded="true" signature="2478:2533" ph="update user " />
-            <marker date="1530331294640" expanded="true" signature="2645:2823" ph="insert into weibo... " />
-            <marker date="1530331294640" expanded="true" signature="2934:2979" ph="select id fr... weibo" />
-            <marker date="1530331294640" expanded="true" signature="3076:3124" ph="update weibo... " />
-            <marker date="1530331294640" expanded="true" signature="3076:3135" ph="update weibo... " />
-            <marker date="1530331294640" expanded="true" signature="3232:3293" ph="update weibo... " />
-            <marker date="1530331294640" expanded="true" signature="3392:3449" ph="UPDATE weibo... " />
-            <marker date="1530331294640" expanded="true" signature="3571:3650" ph="SELECT * fro... weibo" />
-            <marker date="1530331294640" expanded="true" signature="3577:3623" ph="select * fro... weibo" />
-            <marker date="1530331294640" expanded="true" signature="3577:3626" ph="select * fro... weibo" />
-            <marker date="1530331294640" expanded="true" signature="3577:3650" ph="select * fro... weibo" />
-            <marker date="1530331294640" expanded="true" signature="3798:3838" ph="select * fro... weibo" />
-            <marker date="1530331294640" expanded="true" signature="3945:3977" ph="DELETE FROM " />
-            <marker date="1530331294640" expanded="true" signature="4081:4095" ph="select * fro... user" />
-            <marker date="1530331294640" expanded="true" signature="4081:4126" ph="select * fro... weibo" />
-            <marker date="1530331294640" expanded="true" signature="4279:4358" ph="insert into thumb_weibo_user... " />
-            <marker date="1530331294640" expanded="true" signature="4478:4558" ph="select * fro... thumb_weibo_user" />
-            <marker date="1530331294640" expanded="true" signature="4704:4790" ph="insert into weibo_interest... " />
-            <marker date="1530331294640" expanded="true" signature="4921:4992" ph="select weibo... weibo_interest" />
-            <marker date="1530331294640" expanded="true" signature="5127:5197" ph="select weibo... weibo_interest" />
-            <marker date="1530331294640" expanded="true" signature="5315:5467" ph="insert into comment... " />
-            <marker date="1530331294640" expanded="true" signature="5563:5607" ph="DELETE FROM " />
-            <marker date="1530331294640" expanded="true" signature="5563:5620" ph="DELETE FROM " />
-            <marker date="1530331294640" expanded="true" signature="5743:5829" ph="insert into follow... " />
-            <marker date="1530331294640" expanded="true" signature="5990:6027" ph="select * fro... interest" />
-            <marker date="1530331294640" expanded="true" signature="6126:6155" ph="select COUNT... interest" />
-            <marker date="1530331294640" expanded="true" signature="6289:6338" ph="select * fro... interest" />
-            <marker date="1530331294640" expanded="true" signature="6472:6518" ph="select * fro... interest" />
-            <marker date="1530331294640" expanded="true" signature="6617:6661" ph="insert into interest... " />
-            <marker date="1530331294640" expanded="true" signature="6757:6792" ph="DELETE FROM " />
-            <marker date="1530331294640" expanded="true" signature="6922:7036" ph="insert into user_interest... " />
-            <marker date="1530331294640" expanded="true" signature="7142:7192" ph="DELETE FROM " />
-            <marker date="1530331294640" expanded="true" signature="7142:7223" ph="DELETE FROM " />
-            <marker date="1530331294640" expanded="true" signature="7357:7409" ph="select * fro... user_interest" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-web-4.3.18.RELEASE.jar!/org/springframework/web/multipart/commons/CommonsMultipartFile.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="86" column="16" lean-forward="false" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/statics/images/user/th.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weShare2.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/AuthUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/JsonCommon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="58" column="42" lean-forward="false" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/DesUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/soft/pro/java/jdk/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="348" column="56" lean-forward="false" selection-start-line="348" selection-start-column="44" selection-end-line="348" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/jjwt-0.6.0.jar!/io/jsonwebtoken/Jwts.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="e#1104#1105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/jjwt-0.6.0.jar!/io/jsonwebtoken/impl/DefaultJwtParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="51" column="11" lean-forward="false" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/TreeCodec.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/ObjectCodec.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/jackson-databind-2.9.6.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="171" column="0" lean-forward="false" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/jackson-databind-2.9.6.jar!/com/fasterxml/jackson/databind/MappingJsonFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="e#2600#2601#0" expanded="true" />
-            <element signature="e#2657#2658#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/jackson-core-2.9.6.jar!/com/fasterxml/jackson/core/JsonFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="131" column="43" lean-forward="true" selection-start-line="131" selection-start-column="43" selection-end-line="131" selection-end-column="43" />
-          <folding>
-            <element signature="method#register#0;class#UserController#0" expanded="false" />
-            <element signature="method#login#0;class#UserController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/JWTUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <element signature="method#getKeyInstance#0;class#JWTUtils#0" expanded="false" />
-            <element signature="method#createJWT#0;class#JWTUtils#0" expanded="false" />
+            <element signature="method#look_list_interest#0;class#InterestController#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1629,7 +1604,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Spring (weShare2)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -15,7 +15,7 @@ public class DataToJson {
     public static void submitByJson(Map<String,Object>list, HttpServletResponse response){
         JsonCommon jsonCommon = new JsonCommon();
         String data = jsonCommon.getJsonString(list);
-        response.setContentType("text/html;charset=utf-8");
+        response.setContentType("application/json;charset=utf-8");
         PrintWriter writer = null;
         try {
             writer = response.getWriter();

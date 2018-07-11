@@ -1,13 +1,11 @@
 package controller;
 
-import common.DataToJson;
-import common.DesUtils;
-import common.JsonCommon;
-import common.TimeCommon;
+import common.*;
 import model.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
 import service.UserService;
@@ -28,120 +26,99 @@ import java.util.Map;
 @RequestMapping("/user")
 public class UserController {
 
+    CacheUtils cacheUtils = new CacheUtils();
+
     /**
      * 注册
      *
-     * @param request
      * @param response
      * @throws Exception
      */
-    @RequestMapping("/register")
-    public void register(@RequestBody String body, HttpServletRequest request, HttpServletResponse response) throws Exception {
-        String action = request.getParameter("action");
-        if (action.equalsIgnoreCase("register")) {
-            System.out.println(body);
-            JsonCommon jsonCommon = new JsonCommon();
-            User user = jsonCommon.getObject(body, User.class);
-            UserService userService = new UserService();
-            int checkName = userService.checkName(user.getName());
-            Map<String, Object> map = new HashMap<>();
-            map.put("statusCode", 200);
-            Map<String, Object> msgMap = new HashMap<>();
-            //用户名重复
-            if (checkName == 1) {
-                msgMap.put("success", -1);
-                map.put("msg", msgMap);
-                System.out.println("用户名重复");
-                DataToJson.submitByJson(map, response);
-                return;
-            }
-            int checkEmail = userService.checkEmail(user.getEmail());
-            if (checkEmail == 1) {
-                msgMap.put("success", -2);
-                map.put("msg", msgMap);
-                System.out.println("邮箱重复");
-                DataToJson.submitByJson(map, response);
-                return;
-            }
-            DesUtils desUtils = new DesUtils();
-            user.setPassword(desUtils.encrypt(user.getPassword()));
-            user.setPhoto("web/statics/images/user/th.jpg");
-            user.setLogin_time(TimeCommon.sqlTime());
-            user.setRegister_time(TimeCommon.sqlTime());
-            user.setIs_banned(0);
-            System.out.println(user);
-            int result = userService.register(user);
-            if (result > 0) {
-                System.out.println("注册成功！");
-                msgMap.put("success", 1);
-                map.put("msg", msgMap);
-                DataToJson.submitByJson(map, response);
-                return;
-            } else {
-                System.out.println("注册失败！");
-                msgMap.put("success", 0);
-                map.put("msg", msgMap);
-                DataToJson.submitByJson(map, response);
-                return;
-            }
+    @RequestMapping(value = "/register", method = RequestMethod.POST)
+    public void register(@RequestBody String body, HttpServletResponse response) throws Exception {
+        System.out.println("registerController");
+        JsonCommon jsonCommon = new JsonCommon();
+        User user = jsonCommon.getObject(body, User.class);
+        Map<String, Object> map = new HashMap<>();
+        map.put("statusCode", 200);
+        Map<String, Object> msgMap = new HashMap<>();
+
+        UserService userService = new UserService();
+        //用户名重复
+        int checkName = userService.checkName(user.getName());
+        if (checkName == 1) {
+            msgMap.put("success", -1);
+            System.out.println("用户名重复");
         }
+        //邮箱重复
+        int checkEmail = userService.checkEmail(user.getEmail());
+        if (checkEmail == 1) {
+            msgMap.put("success", -2);
+            System.out.println("邮箱重复");
+        }
+        //注册数据表
+        DesUtils desUtils = new DesUtils();
+        user.setPassword(desUtils.encrypt(user.getPassword()));
+        user.setPhoto("/user/th.jpg");
+        user.setLogin_time(TimeCommon.sqlTime());
+        user.setRegister_time(TimeCommon.sqlTime());
+        user.setIs_banned(0);
+        //设定管理员
+        if ("1713507920@qq.com".equalsIgnoreCase(user.getEmail())) {
+            user.setIs_admini(1);
+        } else {
+            user.setIs_admini(0);
+        }
+        int result = userService.register(user);
+        if (result > 0) {
+            msgMap.put("success", 1);
+        } else {
+            msgMap.put("success", 0);
+        }
+        map.put("msg", msgMap);
+        DataToJson.submitByJson(map, response);
     }
 
     /**
      * 登陆
      *
-     * @param request
      * @throws Exception
      */
-    @RequestMapping(value = "/login")
-    public void login(@RequestBody String body, HttpServletRequest request, HttpServletResponse response) throws Exception {
+    @RequestMapping(value = "/login", method = RequestMethod.POST)
+    public void login(@RequestBody String body, HttpServletResponse response) throws Exception {
+        System.out.println("loginController");
+        Map<String, Object> map = new HashMap<>();
+        map.put("statusCode", 200);
+        Map<String, Object> msgMap = new HashMap<>();
+
         JsonCommon jsonCommon = new JsonCommon();
         User user = jsonCommon.getObject(body, User.class);
         user.setEmail(user.getName());
         DesUtils desUtils = new DesUtils();
         user.setPassword(desUtils.encrypt(user.getPassword()));
+
         UserService userService = new UserService();
         User login = userService.login(user);
-        Map<String, Object> map = new HashMap<>();
-        map.put("statusCode", 200);
-        Map<String, Object> msgMap = new HashMap<>();
+        String token = "";
         if (login != null) {
             User user_login_time = new User(login.getId(), TimeCommon.sqlTime());
             int update_login_time = userService.update_login_time(user_login_time);
-            if (update_login_time == 1) {
-                System.out.println("登陆时间更新成功");
+            if (login.getIs_admini() == 1) {//管理员登陆成功
+                msgMap.put("success", 2);
+            } else {
+                msgMap.put("success", 1);//用户登陆成功
             }
-            msgMap.put("succes", 1);
-            msgMap.put("user", login);
-            System.out.println("登陆成功");
-            DataToJson.submitByJson(map, response);
-            return;
+            String sub = jsonCommon.getJsonString(user);
+            token = JWTUtils.createJWT(String.valueOf(user.getId()), sub);
+            //将 token 存入缓存
+            cacheUtils.addOrUpdate(String.valueOf(user.getId()), token);
         } else {
-            msgMap.put("succes", 0);
-            msgMap.put("user", login);
-            map.put("msg", msgMap);
-            DataToJson.submitByJson(map, response);
-            System.out.println("登陆失败");
-            return;
+            msgMap.put("success", 0);
         }
-    }
-
-    @RequestMapping("/change_photo")
-    public void change_photo(@RequestParam("photo") CommonsMultipartFile photo, HttpServletRequest request, HttpServletResponse response) throws IOException {
-        ServletContext servletContext = request.getServletContext();
-        System.out.println(servletContext);
-        String path = request.getServletContext().getRealPath("/statics/images/user");//获取文件上传目的位置的真实路径
-        System.out.println("path: " + path);
-        String filename = photo.getOriginalFilename();
-        File file = new File(path, filename);
-        if (!file.getParentFile().exists()) {
-            file.getParentFile().mkdirs();
-        }
-        photo.transferTo(new File(path + File.separator + filename));
-
-        Map<String, Object> map = new HashMap<>();
-        map.put("statsuCode", 200);
+        msgMap.put("user", login);
+        msgMap.put("token", token);
+        map.put("msg", msgMap);
         DataToJson.submitByJson(map, response);
-
     }
+
 }

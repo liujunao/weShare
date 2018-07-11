@@ -9,7 +9,8 @@ import java.util.Date;
 public class TimeCommon {
 
     public static String sqlTime(){
-        String time = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
+//        String time = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
+        String time = new SimpleDateFormat("yyyy年MM月dd日 HH:mm").format(new Date());
 
         return time;
     }

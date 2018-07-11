@@ -8,8 +8,8 @@
     </select>
     <!-- 注册 -->
     <insert id="register" parameterType="User">
-        insert into user (name, password, email,photo,gender,login_time,register_time,is_banned)
-          values (#{name},#{password},#{email},#{photo},#{gender},#{login_time},#{register_time},#{is_banned});
+        insert into user (name, password, email,photo,gender,login_time,register_time,is_banned,is_admini)
+          values (#{name},#{password},#{email},#{photo},#{gender},#{login_time},#{register_time},#{is_banned},#{is_admini});
     </insert>
     <!-- 注册时，查询用户名或邮箱重复 -->
     <select id="checkName" parameterType="string" resultType="User">
@@ -98,6 +98,10 @@
     <select id="look_hot" resultType="Weibo">
         select * from weibo ORDER BY id DESC LIMIT 10
     </select>
+    <!-- 查询指定用户的博文 -->
+    <select id="search_by_userid" parameterType="int" resultType="Weibo">
+        select * from weibo WHERE user_id=#{user_id};
+    </select>
 
 
     <!-- thumb_weibo_user -->
@@ -124,6 +128,7 @@
         select weibo_id from weibo_interest WHERE interest_id = #{interest_id};
     </select>
 
+
     <!-- comment -->
     <!-- 添加评论 -->
     <insert id="add_comment" parameterType="Comment">
@@ -134,6 +139,17 @@
     <delete id="del_comment" parameterType="Comment">
         DELETE FROM comment WHERE id=#{id} and user_id=#{user_id}
     </delete>
+    <delete id="del_comment_by_id" parameterType="int">
+        DELETE FROM comment WHERE id=#{id}
+    </delete>
+    <!-- 根据 weibo_id 获取所有的评论信息 -->
+    <select id="get_by_weibo" parameterType="int" resultType="Comment">
+        select * from comment WHERE weibo_id=#{weibo_id};
+    </select>
+    <!-- 根据关键字查询评论 -->
+    <select id="search_comment" parameterType="string" resultType="Comment">
+        select * from comment WHERE context LIKE #{context};
+    </select>
 
 
     <!-- follow -->
@@ -141,6 +157,22 @@
     <insert id="add_follow" parameterType="Follow">
         insert into follow (followed_id, following_id) values (#{followed_id},#{following_id});
     </insert>
+    <!-- 取消关注 -->
+    <delete id="del_follow" parameterType="Follow">
+        DELETE FROM follow WHERE followed_id=#{followed_id} and following_id=#{following_id}
+    </delete>
+    <!-- 查询是否已关注 -->
+    <select id="is_follow" parameterType="Follow" resultType="Follow">
+        select * from follow WHERE followed_id=#{followed_id} and following_id=#{following_id};
+    </select>
+    <!-- 查询关注用户列表 -->
+    <select id="get_follows" parameterType="int" resultType="Follow">
+        select * from follow WHERE following_id=#{following_id};
+    </select>
+    <!-- 获取粉丝数 -->
+    <select id="get_fans_count" parameterType="int" resultType="int">
+        select COUNT(*) from follow WHERE followed_id=#{followed_id};
+    </select>
 
     <!-- interest -->
     <!-- 根据 interest_id 获取指定趣点 -->
@@ -167,6 +199,10 @@
     <delete id="delete_interest" parameterType="int">
         DELETE FROM interest WHERE id=#{id}
     </delete>
+    <!-- 获取所有趣点列表 -->
+    <select id="get_all_interests" resultType="Interest">
+        select * from interest;
+    </select>
 
     <!-- user_interest -->
     <!-- 订阅趣点 -->
@@ -180,5 +216,9 @@
     <!-- 用户查看自己的趣点列表 -->
     <select id="look_list_by_user_id" parameterType="int" resultType="User_interest">
         select * from user_interest WHERE user_id=#{user_id};
+    </select>
+    <!-- 根据 interest_id 获取 -->
+    <select id="get_sub_by_interest" parameterType="int" resultType="User_interest">
+        select * from user_interest WHERE interest_id=#{interest_id};
     </select>
 </mapper>

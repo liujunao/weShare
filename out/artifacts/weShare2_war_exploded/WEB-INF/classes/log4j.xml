@@ -7,7 +7,7 @@
         </layout>
     </appender>
     <logger name="java.sql">
-        <level value="debug" />
+        <level value="error" />
     </logger>
     <logger name="org.apache.ibatis">
         <level value="error" />

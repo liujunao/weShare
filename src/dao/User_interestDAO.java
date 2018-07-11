@@ -72,4 +72,42 @@ public class User_interestDAO {
 
         return list;
     }
+
+    /**
+     * 判断用户是否订阅
+     *
+     * @param user_id
+     * @param interest_id
+     * @return
+     */
+    public int is_subs(int user_id, int interest_id) {
+        int result = 0;
+        List<User_interest> list = look_list_by_user_id(user_id);
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i).getInterest_id() == interest_id) {
+                result = 1;
+                break;
+            } else {
+                continue;
+            }
+        }
+
+        return result;
+    }
+
+    /**
+     * 根据 interest_id 获取
+     *
+     * @param interest_id
+     * @return
+     */
+    public List<User_interest> get_sub_by_interest(int interest_id) {
+        SqlSessionFactory factory = MyBatisUtils.getFactory();
+        SqlSession sqlSession = factory.openSession();
+        String statement = "db.mapper.get_sub_by_interest";
+        List<User_interest> list = sqlSession.selectList(statement, interest_id);
+        sqlSession.close();
+
+        return list;
+    }
 }

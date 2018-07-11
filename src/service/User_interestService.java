@@ -49,4 +49,29 @@ public class User_interestService {
         return list;
     }
 
+    /**
+     * 判断用户是否订阅
+     *
+     * @param user_id
+     * @param interest_id
+     * @return
+     */
+    public int is_subs(int user_id, int interest_id) {
+        int result = user_interestDAO.is_subs(user_id, interest_id);
+
+        return result;
+    }
+
+    /**
+     * 根据 interest_id 获取
+     *
+     * @param interest_id
+     * @return
+     */
+    public List<User_interest> get_sub_by_interest(int interest_id) {
+        List<User_interest> user_interests = user_interestDAO.get_sub_by_interest(interest_id);
+
+        return user_interests;
+    }
+
 }

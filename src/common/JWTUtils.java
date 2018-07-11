@@ -74,7 +74,7 @@ public class JWTUtils {
      * @param token
      * @return
      */
-    public String updateJWT(String token) {
+    public static String updateJWT(String token) {
         try {
             Claims claims = verifyJWT(token);
             String id = claims.getId();

@@ -201,135 +201,139 @@
       <DataType>int(2)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="56" parent="20" name="PRIMARY">
+    <column id="56" parent="20" name="is_admini">
+      <Position>10</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <key id="57" parent="20" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="57" parent="21" name="id">
+    <column id="58" parent="21" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="58" parent="21" name="user_id">
+    <column id="59" parent="21" name="user_id">
       <Position>2</Position>
       <Comment>趣点关注者 ID</Comment>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="59" parent="21" name="interest_id">
+    <column id="60" parent="21" name="interest_id">
       <Position>3</Position>
       <Comment>趣点 ID</Comment>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="60" parent="21" name="interest_name">
+    <column id="61" parent="21" name="interest_name">
       <Position>4</Position>
       <DataType>varchar(225)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="61" parent="21" name="PRIMARY">
+    <key id="62" parent="21" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="62" parent="22" name="id">
+    <column id="63" parent="22" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="63" parent="22" name="followed_id">
+    <column id="64" parent="22" name="followed_id">
       <Position>2</Position>
       <Comment>被关注者 id</Comment>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="64" parent="22" name="following_id">
+    <column id="65" parent="22" name="following_id">
       <Position>3</Position>
       <Comment>关注者 id</Comment>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="65" parent="22" name="PRIMARY">
+    <key id="66" parent="22" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="66" parent="23" name="id">
+    <column id="67" parent="23" name="id">
       <Position>1</Position>
       <Comment>主键 id</Comment>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="67" parent="23" name="context">
+    <column id="68" parent="23" name="context">
       <Position>2</Position>
       <Comment>博文内容</Comment>
       <DataType>text|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="68" parent="23" name="read_count">
+    <column id="69" parent="23" name="read_count">
       <Position>3</Position>
       <Comment>博文阅读量,默认0</Comment>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="69" parent="23" name="thumb_count">
+    <column id="70" parent="23" name="thumb_count">
       <Position>4</Position>
       <Comment>点赞量，默认0</Comment>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="70" parent="23" name="user_id">
+    <column id="71" parent="23" name="user_id">
       <Position>5</Position>
       <Comment>发布博文的用户 id</Comment>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="71" parent="23" name="create_time">
+    <column id="72" parent="23" name="create_time">
       <Position>6</Position>
       <Comment>博文创建时间</Comment>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="72" parent="23" name="user_name">
+    <column id="73" parent="23" name="user_name">
       <Position>7</Position>
       <Comment>博文发布者</Comment>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="73" parent="23" name="PRIMARY">
+    <key id="74" parent="23" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="74" parent="24" name="id">
+    <column id="75" parent="24" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="75" parent="24" name="weibo_id">
+    <column id="76" parent="24" name="weibo_id">
       <Position>2</Position>
       <Comment>博文 id</Comment>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="76" parent="24" name="interest_id">
+    <column id="77" parent="24" name="interest_id">
       <Position>3</Position>
       <Comment>趣点 id</Comment>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="77" parent="24" name="interest_name">
+    <column id="78" parent="24" name="interest_name">
       <Position>4</Position>
       <Comment>趣点名</Comment>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="78" parent="24" name="PRIMARY">
+    <key id="79" parent="24" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
